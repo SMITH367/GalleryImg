@@ -116,24 +116,22 @@ h2 {
     width:100%;
     max-height: 100%;
 
-   
-
-
 }
 
 .image-container {
 
-    width: 33%;
-    height:33%;
+    width:33.3%;
+    max-height: 100%;
     max-width: 100%;
-    max-height: 80%;
-    border:solid #fff;
-    border-radius: 3px;
-
+    padding: 10px;
    
-
 }
+.image-container :hover{
 
+   border:solid rgb(214, 214, 214) 3px; 
+   border-radius:4em; 
+   transition: all .2s;
+}
 .img-cont {
 
     width:100%;
@@ -156,15 +154,16 @@ h2 {
     position:relative;
     left: 2em;
     bottom: .7em;
-    background: rgb(172, 172, 172);
+    background: rgb(114, 114, 114);
     color: rgb(255, 255, 255);
     font-size:1.2em;
 
 
 }
 
-
-
+footer{
+    margin: 30px;
+}
 
 .center {
     text-align: center;
