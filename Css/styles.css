@@ -21,7 +21,7 @@ h2 {
     justify-content: space-between;
     max-width: 100%;
     align-items: center;
-    background: rgb(231, 231, 231);
+    background: rgb(243, 241, 241);
 
 }
 
@@ -38,10 +38,20 @@ h2 {
 
     display: inline-block;
     margin: 5px;
+    padding:6px;
+    color:#fff;
+    border:solid rgb(0, 255, 234);
+    border-radius:5px;
     text-align: center;
+    font-style: oblique;
+    background: rgb(4, 189, 245);
 
 }
-
+.navegation a:hover{
+  font-weight: bolder;
+  font-size: larger;
+ 
+}
 .logo {
     width: 50%;
 }
@@ -74,7 +84,10 @@ h2 {
     border: solid 2px rgb(199, 199, 199);
     border-radius: 10px;
 }
+.hero i :hover{
 
+    color: #fff;
+}
 .search-button {
 
     color: #fff;
@@ -82,8 +95,9 @@ h2 {
     height: 50px;
     border-radius: 10px;
     cursor: pointer;
-    background: rgb(0, 195, 255);
+    background: rgb(83, 215, 255);
 }
+
 
 
 .download-now {
@@ -142,7 +156,7 @@ h2 {
 
 .download-img{
     position:relative;
-    left: 1em;
+    left: 12em;
     bottom: .7em;
     background: rgb(1, 247, 255);
     color: rgb(255, 255, 255);
@@ -152,7 +166,7 @@ h2 {
 .show-img{
 
     position:relative;
-    left: 2em;
+    left: 13.7em;
     bottom: .7em;
     background: rgb(114, 114, 114);
     color: rgb(255, 255, 255);
