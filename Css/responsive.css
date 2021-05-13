@@ -2,7 +2,7 @@
 
   
    .img-logo {
-      width: 60%;
+      width: 100%;
 
    }
    #side-bar{
@@ -22,7 +22,15 @@
       
    }
 
+   .search2{
+      
+      display:none; 
+   }
 
+   .search3{
+      visibility:visible;
+      margin-top:10px;
+   }
 
 .images-content {
    
