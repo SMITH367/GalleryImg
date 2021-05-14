@@ -1,11 +1,12 @@
 * {
-    padding: 0;
-    margin: 0;
+
     box-sizing: border-box;
+
 }
 
 body {
     max-width: 100%;
+    padding: 0;
 
 }
 
@@ -13,70 +14,101 @@ h2 {
     padding: 20px;
 }
 
+.h2 {
+    padding-top: 4em;
+
+}
+
 
 .header {
 
-
-    display: flex;
+    position: fixed;
     width: 100%;
-    align-content: center;
-    align-items: center;
-    align-content:space-around;
-    background: rgb(243, 241, 241);
-
+    background: #232a34;
+    padding: 0;
 }
 
-.navegation {
+.nav {
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    list-style: none;
-    align-content: center;
-    width: 100%;
-
+    justify-content: space-between;
+    max-width: 992px;
+    height: 80px;
+    margin: 0 auto;
+    background: #232a34;
 }
 
-.navegation-ul {
-
-    display: inline-block;
-    margin: 5px;
-    padding: 6px;
-    color: #fff;
-    border: solid rgb(0, 255, 234);
-    border-radius: 5px;
-    text-align: center;
-    font-style: oblique;
-    background: rgb(4, 189, 245);
-
-}
-
-.navegation a:hover {
+.nav a {
+    text-decoration: none;
+    color: rgb(210, 222, 231);
     font-weight: bolder;
-    font-size: larger;
+    font-family: sans-serif;
 
 }
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-right: 2em;
+
+}
+
+.nav-menu-item {
+
+    line-height: 80px;
+    margin: auto 10px;
+
+
+}
+
+.nav-menu-item a:hover {
+    transition: all .2s;
+    margin: .1em;
+    padding: 5px;
+    font-size: 1.2em;
+    border: solid gray 1px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.nav-menu-item a i {
+    font-size: 22px;
+    margin: 3px;
+}
+
+.nav-menu-item2 {
+    display: none;
+}
+
+.toogle-init {
+    font-size: 30px;
+    border: none;
+    background: none;
+    color: #fff;
+    display: none;
+}
+
+.search2 {
+
+    width: 100%;
+    margin-top: 3em;
+}
+
+.search3 {
+    visibility: hidden;
+
+}
+
+
 
 .logo {
     width: 20%;
+
 }
 
 .img-logo {
     width: 40%;
 }
-
-.search2 {
-
-    width: 50%;
-}
-
-.search3{
-    visibility:hidden; 
-  
-
-    
-}
-
-
 
 
 
@@ -103,6 +135,9 @@ h2 {
     background: rgb(83, 215, 255);
 }
 
+.space {
+    height: 40px;
+}
 
 
 
@@ -162,9 +197,7 @@ h2 {
 }
 
 .download-img {
-    position: relative;
-    left: 9.5em;
-    bottom: .7em;
+    padding-left: 9.5em;
     color: rgb(0, 255, 255);
     font-size: 1.5em;
 }
