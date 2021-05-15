@@ -4,7 +4,7 @@
 
 const hero = document.getElementById("hero");
 
-let ramdom =  Math.floor(Math.random() * (4 - 1)) + 1;
+let ramdom =  Math.floor(Math.random() * (3 - 1)) + 1;
 
 if(ramdom ===1){
 
@@ -14,11 +14,7 @@ if(ramdom ===1){
 
     hero.classList.add("hero2");
 
-} else if(ramdom ===3){
-
-    hero.classList.add("hero3");
-
-}
+} 
 
 //side bar
 

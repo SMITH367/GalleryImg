@@ -10,14 +10,13 @@ body {
 
 }
 
-h2 {
-    padding: 20px;
-}
 
 .h2 {
-    padding-top: 4em;
+    padding: 1.4em;
+
 
 }
+
 
 
 .header {
@@ -140,26 +139,6 @@ h2 {
 }
 
 
-
-.download-now {
-    cursor: pointer;
-    color: #fff;
-    display: inline-block;
-    text-align: center;
-    width: 100%;
-    height: 5%;
-    display: inline;
-    text-align: center;
-}
-
-.download-now :hover {
-    color: #fff;
-
-}
-
-
-
-
 .images-content {
 
     display: flex;
@@ -212,8 +191,54 @@ img :hover {
 }
 
 footer {
-    margin: 30px;
+   margin-top:2em;
+    width: 100%;
 }
+.footer-cont {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    align-items:center;
+    height: 220px;
+    background: #232a34;
+    color: #fff;
+}
+
+.icon-footer {
+
+    font-size: 1.5em;
+}
+.icon-footer :hover{
+    padding:6px;
+    border:solid rgb(85, 85, 85) 2px;
+    border-radius:3px;
+    transition: all .2s;
+}
+
+.footer-item-width {
+    padding: 10px;
+    width: 33%;
+}
+
+.footer-thanks {
+    font-size: 2em;
+}
+
+.footer-copyright {
+    padding: 10px;
+    background: #3c4858;
+    color: #fff;
+}
+
+.content-icon {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
 
 .center {
     text-align: center;
