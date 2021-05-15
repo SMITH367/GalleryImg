@@ -11,7 +11,6 @@ body {
     min-width: 100%;
 }
 
-
 .h2 {
     padding: 1.2em;
 
@@ -249,6 +248,7 @@ img :hover {
     align-content: space-between;
     align-items:center;
     height: 220px;
+    margin-top: 3em;
     background: #232a34;
     color: #fff;
 }

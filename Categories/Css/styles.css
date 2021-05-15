@@ -10,11 +10,13 @@ body {
 
 }
 
+.main{
+    background: rgb(243, 243, 243);
+}
+
 
 .h2 {
-    padding: 1.4em;
-
-
+    padding: 10px;
 }
 
 
