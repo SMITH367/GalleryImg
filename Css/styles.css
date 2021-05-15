@@ -220,10 +220,9 @@ body {
 
 .img-cont {
 
-    width: 90%;
-    height: 270px;
-    padding: 10px;
-
+    width: 100%;
+    height: 300px;
+    padding: 5px;
 }
 
 .download-img {
