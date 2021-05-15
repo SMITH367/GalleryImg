@@ -127,8 +127,13 @@
       font-size:1em;
   }
 
-   .container-xxl {
-      max-width: 100%;
-   }
+
+.to-top i {
+  
+   font-size: 25px;
+   text-align: center;
+
+}
+  
 
 }
