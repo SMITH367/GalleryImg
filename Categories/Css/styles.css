@@ -56,8 +56,8 @@ body {
 
 .nav-menu-item {
 
-    line-height: 80px;
-    margin: auto 10px;
+    line-height: 70px;
+    margin: 10px;
 
 
 }
@@ -103,12 +103,13 @@ body {
 
 
 .logo {
+    line-height: 70px;
     width: 20%;
 
 }
 
 .img-logo {
-    width: 40%;
+    width: 35%;
 }
 
 
