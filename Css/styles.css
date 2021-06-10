@@ -53,7 +53,7 @@ body {
 
 .nav-menu-item {
 
-    line-height: 60px;
+    line-height: 80px;
     margin: auto 10px;
 
 
@@ -83,7 +83,6 @@ body {
 }
 
 .search2 {
-
     width: 50%;
 }
 
@@ -95,13 +94,15 @@ body {
 
 
 .logo {
+
     width: 20%;
-    margin:auto;
 
 }
 
 .img-logo {
-    width: 35%;
+
+    width: 40%;
+    
 }
 
 
