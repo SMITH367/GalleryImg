@@ -67,6 +67,11 @@
    #side-bar .toogle {
       left: 210px;
       width: 50%;
+      position: absolute;
+      top: 20px;
+      cursor: pointer;
+      padding-left: 0;
+
 
    }
 
