@@ -9,6 +9,8 @@ body {
     left: 0;
     height: 100%;
     min-width: 100%;
+    overflow-x: hidden;
+    overflow-y:scroll;
 }
 
 .h2 {
@@ -143,8 +145,8 @@ body {
 
 .search-input {
 
-    height: 50px;
-    width: 50%;
+    height: 40px;
+    width: 40%;
     border: solid 2px rgb(199, 199, 199);
     border-radius: 10px;
     padding-left: 20px;
@@ -154,14 +156,14 @@ body {
 
     color: #fff;
     font: bolder;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 .search-button {
 
     color: #fff;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border-radius: 10px;
     cursor: pointer;
     background: rgb(0, 195, 255);
