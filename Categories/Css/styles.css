@@ -9,6 +9,10 @@ body {
 
 }
 
+.container {
+    margin-top: 3em;
+}
+
 .main {
     background: rgb(243, 243, 243);
 }
@@ -88,17 +92,6 @@ body {
     display: none;
 }
 
-.search2 {
-
-    width: 100%;
-    margin-top: 3em;
-}
-
-.search3 {
-    visibility: hidden;
-
-}
-
 
 
 .logo {
@@ -111,15 +104,6 @@ body {
     width: 35%;
 }
 
-
-
-.search-input {
-
-    height: 50px;
-    width: 50%;
-    border: solid 2px rgb(199, 199, 199);
-    border-radius: 10px;
-}
 
 .hero-txt :hover {
 
